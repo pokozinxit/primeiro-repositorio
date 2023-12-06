@@ -1,19 +1,27 @@
-header  {
-    background-color: blue;
+header {
+    background: #BBBBBB;
+    padding: 20PX 0;
 }
 
-nav li {
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 
 
-
-
-display: inline;
-max-width:  0 0 0 15px;
+    display: inline;
+    max-width: 0 0 0 15px;
 }
 
 nav a {
-    text-transform:  uppercase;
-    color: blue;
+    text-transform: uppercase;
+    color: rgb(0, 0, 253);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -21,4 +29,42 @@ nav a {
 
 
 
+}
+
+
+
+
+
+
+
+
+
+.produtos {
+    width: 940px;
+    margin: 50px 0;
+    padi
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.produtos li:hover {
+    border-color: ;
+}
+
+.produtos li:active {
+    border-color: rgb(141, 85, 12);
+}
+
+.produtos li:hover h2 {
+    font-size: 34pxm;
 }
